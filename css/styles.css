@@ -17,78 +17,95 @@ html{
 }
 
 .header{
-    padding: 0 0 0 10px;
+    padding: 0 0 0 7px;
     background-color: #374049;
     color:white;
 }
 
 h1{
-
-    padding:15px;
-    padding-bottom: 0px;
-    font-size: 27px;
+    padding:20px 0 0 12px;
+    margin-bottom:0px;
+    font-size: 20px;
+    font-weight: 600;
     text-align: left;
 }
 
 .header p{
-    font-size:15px;
-    padding-left: 17px;
-    position:relative;
-    top:-20px;
+    font-size:13px;
+    padding-left: 12px;
+    padding-bottom:23px;
+    margin:0;
     color: white;
+    opacity: 0.6;
 }
 
 .nav{
-    padding: 20px 0 0px 17px;
-    position:relative;
-    top:-15px;
-    height: 37px;
-    background: linear-gradient(0deg, white, #8b99a7 90%);
-
-}
-.soclinks{
+    padding: 13px 0 13px 14px;
+    height: 46px;
+    background: linear-gradient(0deg, white, #8b99a7 55%);
 
 }
 
-.soclinks p{
+.soclinks a{
+    text-decoration:none;
+    opacity: 1;
     float: left;
     display:inline-block;
     font-family:'JustVectorRegular';
-    font-size: 40px;
-    margin: 20px 0 0 0;
+    font-size: 35px;
+    margin-top:8px;
     padding-left:0px;
-    letter-spacing: 3px;
+    letter-spacing: 0.2em;
     text-shadow: 0px 0px .5px black;
     color:#ffffff;
 }
 
-.soclinks p:hover{
+.soclinks a:hover{
     text-shadow: 0px 1px 2px black;
     cursor:default;
 }
 
+.s--github:hover{
+    color:black;
+}
+
+.s--rss:hover{
+    color:#FF6600;
+}
+
+.s--twitter:hover{
+    color:#0084b4;
+}
+
 .sitelinks{
-    font-size: 19px;
-    font-style: normal;
+    margin-top: 10px;
+    margin-right:8px;
+    font-size: 15px;
     float: right;
-    position:relative;
-    top: 0px;
-    padding: 0px;
 }
 
 .sitelinks a{
+    font-weight: 600;
     padding:0 7px 0 7px;
     text-decoration: none;
     color:#2F4F4F;
 }
 .sitelinks a:hover{
-    text-shadow: 0px 1px 2px gray;
+    color:white;
     cursor:default;
 }
 
-.clear {
-    position: relative;
-    clear: right;
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.narrow{
+width: 90%;
+margin:auto;
 }
 
 hr{
@@ -98,26 +115,65 @@ hr{
     border-radius: 80%;
 }
 
+.fade{
+    color: #374049;
+    opacity: 0.4;
+    line-height: 22px;
+    font-weight: 600;
+}
+
 .date{
-    font-size:15px;
+    margin-top:25px;
+    font-size:13px;
+    font-weight: 400;
 }
 
 h2{
+    margin-top:10px;
+    margin-bottom:5px;
     font-size:27px;
+    font-weight:600;
+    color:#374049;
+    letter-spacing: -0.03em;
 }
 
 p{
-    font-size: 17px;
+    font-size: 15px;
 }
 
-.fade{
-    color: #374049;
-    opacity: 0.5;
-    line-height: 22px;
-    font-weight: 600;
+
+
+.title{
+    margin-top:35px;
+    margin-bottom:19px;
+    font-size:13px;
+    letter-spacing: 0.12em;
+}
+
+.article {
+    margin-top:5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .article::first-letter {
     font-size: 200%;
     color: #000000;
+}
+
+.captions{
+    font-size:13px;
+    opacity:0.6;
+}
+
+.article_img{
+    text-align:center;
+}
+.article_img img{
+    width: 90%;
+}
+.article_img:hover{
+    border-style: double;
+    margin:-2px -2px -3px -2px;
 }
