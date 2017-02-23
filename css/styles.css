@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'JustVectorRegular';
+    src: url('justvector-webfont.eot');
+    src: url('justvector-webfont.eot?#iefix') format('eot'),
+         url('justvector-webfont.woff') format('woff'),
+         url('justvector-webfont.ttf') format('truetype'),
+         url('justvector-webfont.svg#webfontmuk63VQd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.header{
+    padding: 0 0 0 10px;
+    background-color: #374049;
+    color:white;
+}
+
+h1{
+
+    padding:15px;
+    padding-bottom: 0px;
+    font-size: 27px;
+    text-align: left;
+}
+
+.header p{
+    font-size:15px;
+    padding-left: 17px;
+    position:relative;
+    top:-20px;
+    color: white;
+}
+
+.nav{
+    padding: 20px 0 0px 17px;
+    position:relative;
+    top:-15px;
+    height: 37px;
+    background: linear-gradient(0deg, white, #8b99a7 90%);
+
+}
+.soclinks{
+
+}
+
+.soclinks p{
+    float: left;
+    display:inline-block;
+    font-family:'JustVectorRegular';
+    font-size: 40px;
+    margin: 20px 0 0 0;
+    padding-left:0px;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px .5px black;
+    color:#ffffff;
+}
+
+.soclinks p:hover{
+    text-shadow: 0px 1px 2px black;
+    cursor:default;
+}
+
+.sitelinks{
+    font-size: 19px;
+    font-style: normal;
+    float: right;
+    position:relative;
+    top: 0px;
+    padding: 0px;
+}
+
+.sitelinks a{
+    padding:0 7px 0 7px;
+    text-decoration: none;
+    color:#2F4F4F;
+}
+.sitelinks a:hover{
+    text-shadow: 0px 1px 2px gray;
+    cursor:default;
+}
+
+.clear {
+    position: relative;
+    clear: right;
+}
+
+hr{
+    border-style: outset;
+    border-width: 0.1px;
+    border-collapse: ;
+    border-radius: 80%;
+}
+
+.date{
+    font-size:15px;
+}
+
+h2{
+    font-size:27px;
+}
+
+p{
+    font-size: 17px;
+}
+
+.fade{
+    color: #374049;
+    opacity: 0.5;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.article::first-letter {
+    font-size: 200%;
+    color: #000000;
+}
